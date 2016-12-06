@@ -6,7 +6,7 @@ using Nancy;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace NetDevPLWeb.Features.OfflineEvents
+namespace NetDevPLWeb.Features.Events
 {
     public class EventsModule : NancyModule
     {
