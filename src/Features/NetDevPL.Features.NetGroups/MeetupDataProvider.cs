@@ -53,7 +53,7 @@ namespace NetDevPL.Features.NetGroups
         }
     }
 
-    #region meetup ison objects
+    #region meetup json objects
 
     public class Venue
     {
