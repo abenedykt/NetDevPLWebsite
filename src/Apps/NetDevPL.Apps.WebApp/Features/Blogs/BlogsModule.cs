@@ -31,7 +31,7 @@ namespace NetDevPLWeb.Features.Blogs
             LastUpdate = snapshot.SnapshotDate;
         }
 
-        public IEnumerable<Blog> BlogsList { get; private set; }
-        public DateTime LastUpdate { get; set; }
+        public IEnumerable<Blog> BlogsList { get; }
+        public DateTime LastUpdate { get;  }
     }
 }
